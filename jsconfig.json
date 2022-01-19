@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        "@/request-berkley/*": ["app/components/elements/request/berkley/*"],
+        "@radfx-api": ["app/api/radfx/api"],
+        "@/elements/*": ["app/components/elements/*"],
+        "@/modules/*": ["app/components/modules/*"],
+        "@/templates/*": ["app/components/templates/*"],
+        "@/layouts/*": ["app/components/layouts/*"],
+        "@/constants/*": ["app/constants/*"],
+        "@/context/*": ["app/context/*"],
+        "@/hooks/*": ["app/hooks/*"],
+        "@/styles/*": ["app/styles/*"],
+        "@/types/*": ["app/types/*"],
+        "@/utils/*": ["app/utils/*"],
+        "@/test/*": ["test/*"],
+      }
+    }
+  }
